@@ -62,7 +62,7 @@ int terme() :
     )*
                                             { return x; }
 }
-// facteur -> - facteur | primaire
+    // facteur -> - facteur | primaire
 int facteur():
                                             {int x;}
 {
