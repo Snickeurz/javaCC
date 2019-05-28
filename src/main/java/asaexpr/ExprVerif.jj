@@ -6,6 +6,10 @@
  * Expressions arithmetiques en JavaCC: verification de la syntaxe.
  */
 
+options {
+   OUTPUT_DIRECTORY = "../jjgener";
+}
+
 PARSER_BEGIN(ExprVerif)
 
     public class ExprVerif {

@@ -7,6 +7,9 @@
  *
  */
 
+options {
+   OUTPUT_DIRECTORY = "../jjgener";
+}
 PARSER_BEGIN(ExprEval)
 
     public class ExprEval {

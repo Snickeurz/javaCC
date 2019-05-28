@@ -7,6 +7,10 @@
  *
  */
 
+options {
+   OUTPUT_DIRECTORY = "../jjgener";
+}
+
 PARSER_BEGIN(ExprPostfix)
 
     public class ExprPostfix {
